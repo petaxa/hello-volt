@@ -15,4 +15,4 @@ The Vue application was created using `create-vue` with the following options:
 [ ] Prettier (code formatting)
 ```
 
-Currently setting up Volt in this project.
+Currently setting up Volt in this project using the [Getting Started](https://volt.primevue.org/vite/#download) guide.
