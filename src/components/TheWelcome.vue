@@ -6,12 +6,14 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
 import Button from '@/volt/Button.vue'
+import PrimeVueButton from 'primevue/button';
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
 
 <template>
-  <Button label="Hello World" />
+  <Button label="Hello World" icon="pi pi-github" />
+  <PrimeVueButton label="Hello World" icon="pi pi-github"/>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
